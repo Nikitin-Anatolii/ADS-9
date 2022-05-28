@@ -4,7 +4,6 @@
 
 template <typename T>
 class BST {
-
  public:
   struct Node {
     T value;
