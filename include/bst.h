@@ -64,7 +64,7 @@ class BST {
     return depth(root) - 1;
   }
   int search(T num) {
-    return seek(root, num) - 1;
+    return seek(root, num) + 1;
   }
 };
 #endif  // INCLUDE_BST_H_
