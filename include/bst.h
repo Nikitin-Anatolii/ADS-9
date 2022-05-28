@@ -63,7 +63,7 @@ class BST {
   int depth() {
     return depth(root) - 1;
   }
-  int Search(T num) {
+  int search(T num) {
     return seek(root, num) - 1;
   }
 };
