@@ -16,7 +16,7 @@ BST<std::string> makeTree(const char* filename) {
     } else if (a >= 'a' && a <= 'z') {
       str += a;
     } else {
-      binTree.add(str);
+      Tree.add(str);
       str = "";
     }
   }
